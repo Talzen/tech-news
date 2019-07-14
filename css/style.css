@@ -520,12 +520,13 @@ RESPONSIVE
 }
  .post .post-img {
      display: block;
-     -webkit-transition: 0.2s opacity;
-     transition: 0.2s opacity;
+     -webkit-transition: 0.4s all;
+     transition: 0.4s all;
      height: 245px;
 }
  .post .post-img:hover, .post .post-img:focus {
      opacity: 0.9;
+     transform: scale(0.9);
 }
  .post .post-img > img {
      width: 100%;
